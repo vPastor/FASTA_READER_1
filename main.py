@@ -1,5 +1,6 @@
-#comentario
 
-for  linea  in  open('/home/victor/Desktop/pdb_seq.txt'):
+field = '/home/victor/Desktop/pdb_seq.txt'
+for  linea  in  open(field):
 	if '>' in linea:
 		print  (linea)
+
