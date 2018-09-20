@@ -1,5 +1,5 @@
 import sys
-if len(sys.argv)>2 || len(sys.argv)<1:
+if (len(sys.argv)>2 || len(sys.argv)<1):
 	print ('Numero de argumentos invalidos')
 else:
 	field = sys.argv[1]
