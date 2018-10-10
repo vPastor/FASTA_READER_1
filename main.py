@@ -4,4 +4,4 @@ if (len(sys.argv)>2 or len(sys.argv)<2):
 else:
 	for  linea  in  open(sys.argv[1]):
 		if (('>') == (linea[0])):
-			print  (linea)
+			print  (len(linea))
